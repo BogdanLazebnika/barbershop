@@ -1,0 +1,23 @@
+.background-image-homepage{
+    position: relative;
+    width: 100%;
+    height: 950px;
+    overflow: hidden;
+
+}
+
+.background-image-homepage img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensure the image is behind other content */
+    
+}
+
+.content-hero-logo{
+    width: 100%;
+    ma
+}

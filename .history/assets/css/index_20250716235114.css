@@ -1,0 +1,227 @@
+/* hero */
+.hero{
+    background-position-x: center;
+    background-image: url('../images/backgrounds/hero.jpg');
+}
+.background-image-homepage{
+    position: relative;
+    width: 100%;
+    height: 950px;
+    overflow: hidden;
+}
+.background-image-homepage img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensure the image is behind other content */   
+}
+.content-hero-wrapper{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+.content-hero-logo{
+    width: calc(100% - 80px);
+    max-width: 430px;
+    margin: 0 auto;
+    padding: 184px 40px;
+}
+.content-hero-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+    font-family: "abril fatface", sans-serif;
+    color: #ffffff;
+}
+/* css для мобілки */
+
+@media screen and (max-width: 1023px) {
+    .content-hero-title {
+        font-size: 13dvw;
+    }
+}
+
+
+
+
+
+
+
+/* Services */
+
+.services{
+    background-position-x: center;
+    background-image: url('../images/backgrounds/services.jpg');
+    padding: 70px 72px 200px;
+}
+.services-subtitle{
+    font-size: 19px;
+    color: #E9C664;
+    font-weight: 400;
+    font-family: "inter", sans-serif;
+    text-align: center;
+    margin: 0 0 25px;
+}
+.services-title{
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "abril fatface", sans-serif;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+
+.services-list-wrapper{
+    width: 738px;
+}
+.services-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: flex-start;
+}
+.service-item{
+    display: flex;
+    width: 340px;
+    height: 340px;
+    border: #E9C664 2px solid;
+}
+.service-item-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 50px 50px;
+}
+.service-item-icon{
+    max-width: 100px;
+    max-height: 100px;
+    width: 100%;
+}
+.service-item-title{
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "abril fatface", sans-serif;
+    margin: 25px 0 25px;
+}
+.service-item-description{
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "inter", sans-serif;
+    line-height: 1.5;
+    margin: 0;
+}
+.services-list-line-button-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.explore-now-button-services-list{
+    padding: 17px 20px;
+    font-size: 16px;
+    color: #E9C664;
+    font-weight: 400;
+    font-family: "inter", sans-serif;
+    border: 2px solid #E9C664;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1023px) {
+    
+.services{
+    /* background-position-x: center;
+    background-image: url('../images/backgrounds/services.jpg'); */
+    padding: 70px 20px 200px;
+}
+/* .services-subtitle{
+    font-size: 19px;
+    color: #E9C664;
+    font-weight: 400;
+    font-family: "inter", sans-serif;
+    text-align: center;
+    margin: 0 0 25px;
+} */
+/* .services-title{
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "abril fatface", sans-serif;
+    text-align: center;
+    margin-bottom: 150px;
+} */
+
+
+.services-list-wrapper{
+    width: 600px;
+    margin: 0 auto;
+}
+.services-list{
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.service-item{
+    display: flex;
+    width: 250px;
+    height: 250px;
+}
+.service-item-content{
+    padding: 20px 20px;
+}
+.service-item-icon{
+    max-width: 60px;
+    max-height: 60px;
+    width: 100%;
+}
+
+.service-item-title{
+    font-size: 16px;
+    margin: 15px 0 15px;
+    font-weight: 300;
+}
+.service-item-description{
+    font-size: 14px;
+}
+
+
+/* .services-list-line-button-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+} */
+
+
+.explore-now-button-services-list{
+    padding: 17px 20px;
+    font-size: 16px;
+    color: #E9C664;
+    font-weight: 400;
+    font-family: "inter", sans-serif;
+    border: 2px solid #E9C664;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+}
+}

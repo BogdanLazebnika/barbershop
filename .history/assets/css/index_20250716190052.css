@@ -1,0 +1,12 @@
+.background-image-homepage{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.background-image-homepage img {
+    width: 100%;
+    
+}

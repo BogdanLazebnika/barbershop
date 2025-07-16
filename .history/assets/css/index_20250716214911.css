@@ -1,0 +1,100 @@
+
+/* hero */
+.hero{
+    background-position-x: center;
+    background-image: url('../images/backgrounds/hero.jpg');
+}
+.background-image-homepage{
+    position: relative;
+    width: 100%;
+    height: 950px;
+    overflow: hidden;
+
+}
+
+.background-image-homepage img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensure the image is behind other content */   
+}
+.content-hero-wrapper{
+    position: relative;
+    display: flex;
+    width: 100%;
+    
+}
+.content-hero-logo{
+    width: calc(100% - 80px);
+    max-width: 430px;
+    margin: 0 auto;
+    padding: 184px 40px;
+}
+
+
+.content-hero-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 120px;
+    font-family: "abril fatface", sans-serif;
+    color: #ffffff;
+}
+
+
+
+
+
+
+/* Services */
+.services{
+    background-position-x: center;
+    background-image: url('../images/backgrounds/services.jpg');
+    padding: 70px 72px;
+}
+.services-subtitle{
+    font-size: 19px;
+    color: #E9C664;
+    font-weight: 400;
+    font-family: "inter", sans-serif;
+    text-align: center;
+    margin: 0 0 25px;
+}
+.services-title{
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "abril fatface", sans-serif;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+
+.service-item-wrapper{
+    max-width: 340px;
+    max-height: 340px;
+}
+.service-item{
+    padding: 50px;
+
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+/* css для мобілки */
+
+@media screen and (max-width: 1023px) {
+    .content-hero-title {
+        font-size: 13dvw;
+    }
+}

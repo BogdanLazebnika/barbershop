@@ -1,0 +1,51 @@
+.background-image-homepage{
+    position: relative;
+    width: 100%;
+    height: 950px;
+    overflow: hidden;
+
+}
+
+.background-image-homepage img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensure the image is behind other content */   
+}
+.content-hero-wrapper{
+    position: relative;
+    display: flex;
+    width: 100%;
+    background-position-x: center;
+}
+.content-hero-logo{
+    width: 100%;
+    max-width: 430px;
+    margin: 0 auto;
+    padding: 184px 70px;
+}
+
+
+.content-hero-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 120px;
+    font-family: "abril fatface", sans-serif;
+    color: #ffffff;
+}
+
+
+
+
+@media screen and (max-width: 1023px) {
+    .content-hero-title {
+        font-size: 10dvw;
+        padding: 100px 0;
+    }
+}

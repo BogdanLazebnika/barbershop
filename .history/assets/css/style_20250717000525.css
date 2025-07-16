@@ -1,0 +1,14 @@
+body{
+    max-width: 1440px;
+
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+
+    min
+}
+
+main{
+    /* відступ для фіксованої шапки */
+    min-height: calc(100vh - 95px);
+}
