@@ -1,0 +1,19 @@
+header{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 40px;
+    
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}

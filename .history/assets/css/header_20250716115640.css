@@ -1,0 +1,25 @@
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 40px;
+}
+
+nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 50px;
+}
+
+nav ul li {
+    font-size: 18px;
+    font-family: "inter", sans-serif;
+}

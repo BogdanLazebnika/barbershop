@@ -1,0 +1,59 @@
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 40px;
+}
+
+
+.burger{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.burger span {
+    width: 30px;
+    height: 4px;
+    background-color: #E9C664;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+/* Анімація бургера в хрестик */
+.burger.open span:nth-child(1) {
+    transform: rotate(50deg) translate(10px, 10px);
+}
+.burger.open span:nth-child(2) {
+    opacity: 0;
+}
+.burger.open span:nth-child(3) {
+    transform: rotate(-50deg) translate(10px, -10px);
+}
+
+nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #979797;
+    font-size: 18px;
+    font-family: "inter", sans-serif;
+    font-weight: 400;
+}
+nav ul li a.active{
+    color: #ffffff;
+    font-weight: bold;
+}

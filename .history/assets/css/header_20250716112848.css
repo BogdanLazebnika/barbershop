@@ -1,0 +1,10 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}

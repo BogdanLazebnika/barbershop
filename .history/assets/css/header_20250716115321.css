@@ -1,0 +1,22 @@
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 40px;
+    
+    font-size: ;
+    font-family: "inter", sans-serif;
+}
+
+nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 50px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
