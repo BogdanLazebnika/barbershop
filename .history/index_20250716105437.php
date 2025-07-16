@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<?php include 'components/header.php'; ?>
+<?php include 'header.php'; ?>
 
 </body>
 </html>

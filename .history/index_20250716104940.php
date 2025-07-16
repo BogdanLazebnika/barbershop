@@ -7,7 +7,12 @@
 </head>
 <body>
 
-<?php include 'components/header.php'; ?>
 
+    <header>
+        <button class=">
+            
+        </button>
+    </header>
+    
 </body>
 </html>

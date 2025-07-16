@@ -7,7 +7,11 @@
 </head>
 <body>
 
-<?php include 'components/header.php'; ?>
 
+    <header>
+        
+        
+    </header>
+    
 </body>
 </html>
