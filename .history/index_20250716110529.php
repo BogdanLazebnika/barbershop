@@ -10,11 +10,7 @@
     <!-- Header -->
     <?php include 'components/header.php'; ?>
 
-    <main>
-
-    </main>
-    
-    <?php include 'components/footer.php'; ?>
+    <main
 
 </body>
 </html>

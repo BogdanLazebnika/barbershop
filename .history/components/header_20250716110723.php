@@ -16,6 +16,4 @@
         </ul>
     </nav>
 
-    <a href="#">BOOK APPOINTMENT</a>
-
 </header>

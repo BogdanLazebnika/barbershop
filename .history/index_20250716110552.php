@@ -14,7 +14,7 @@
 
     </main>
     
-    <?php include 'components/footer.php'; ?>
+    <footer
 
 </body>
 </html>
