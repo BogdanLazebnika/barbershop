@@ -1,0 +1,21 @@
+.counter{
+    padding: 60px 0;
+}
+
+.counter-list{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 180px;
+}
+
+.counter-item{
+    display: flex;
+    align-items: stretch;
+}
+
+.counter-item-icon{
+    max-height: 70px;
+    max-width: 50px;
+    width: 100%;
+}

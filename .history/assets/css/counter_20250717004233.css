@@ -1,0 +1,32 @@
+.counter{
+    padding: 60px 0;
+}
+
+.counter-list{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 180px;
+}
+
+.counter-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.counter-item-icon{
+    max-height: 70px;
+    max-width: 50px;
+    width: 100%;
+}
+
+
+
+.counter-item-title{
+    margin: 35px 0;
+
+    font-family: "arial", sans-serif;
+    font-size: 70px;
+    color: #E9;
+}

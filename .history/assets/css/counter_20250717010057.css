@@ -1,0 +1,108 @@
+.counter{
+    padding: 60px 0;
+
+    background-color: #212121;
+}
+.counter-list{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 180px;
+}
+.counter-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 35px;
+}
+.counter-item-icon{
+    max-height: 70px;
+    max-width: 50px;
+    width: 100%;
+}
+.counter-item-title{
+    font-family: "abril fatface", sans-serif;
+    font-size: 70px;
+    color: #E9C664;
+}
+.counter-item-label{
+    font-family: "abril fatface", sans-serif;
+    font-size: 22px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1023px) {
+    .counter-list{
+        gap: 100px;
+    }
+    .counter-item-icon{
+        max-height: 70px;
+        max-width: 50px;
+        width: 100%;
+    }
+    .counter-item-title{
+        font-size: 70px;
+    }
+    .counter-item-label{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .counter{
+        padding: 40px 0;
+    }
+    .counter-list{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+    .counter-item-icon{
+        max-height: 70px;
+        max-width: 50px;
+        width: 100%;
+    }
+    .counter-item-title{
+        font-family: "abril fatface", sans-serif;
+        font-size: 70px;
+        color: #E9C664;
+    }
+    .counter-item-label{
+        font-family: "abril fatface", sans-serif;
+        font-size: 22px;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+}
+@media screen and (max-width: 767px) {
+    .counter{
+        padding: 40px 0;
+    }
+    .counter-list{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+    .counter-item-icon{
+        max-height: 50px;
+        max-width: 30px;
+        width: 100%;
+    }
+    .counter-item-title{
+        font-family: "abril fatface", sans-serif;
+        font-size: 50px;
+        color: #E9C664;
+    }
+    .counter-item-label{
+        font-family: "abril fatface", sans-serif;
+        font-size: 19px;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+}
